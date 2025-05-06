@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ddd;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: transform 0.2s ease;
+}
+
+.menu-link:hover {
+    transform: scale(1.1);
+    color: rgb(255, 147, 46);
+}
+
+main {
+    background-color: white;
+    padding: 40px 20px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 1rem;
+}
+
+.main-shoe {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+   border-radius: 8px;
+   width: 400px;
+}
+
+.lime-shoe {
+    width: 400px;
+}
+
+
+
+.main-shoe-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.white-shoe {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+
+.beskrivning {
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 1rem;
+    background-color: rgb(255, 147, 46);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: rgb(230, 130, 40);
+}
+
+.signup-section {
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .signup-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .signup-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+  
+  .signup-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .signup-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(255, 147, 46);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: rgb(230, 130, 40);
+  }
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease;
+}
+
+.footer-links:hover {
+    color: rgb(255, 147, 46);
+}
